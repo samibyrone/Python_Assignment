@@ -1,12 +1,10 @@
-x = 2
-y = 3
-print('x =', x)
-print('')
+number = input(" Enter your number ")
 
-print('value of', x, '+', x, 'is', (x + x))
-print('')
+for row in range(10):
 
-print('x =')
-print('')
+	for colomn in range(10):
 
-print((x + y), 'x =', (y + x))
+	if row < number and row % 2 == 1 :
+
+		print( row )
+	elif 

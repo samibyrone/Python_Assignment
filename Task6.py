@@ -1,12 +1,9 @@
+user = int(input(" What is your problem? "))
+comp = int(input( Have you had this problem before (YES or NO)? "))
 
+	if user 
+print(' Well, you have it again. ')
+	if comp
+print(' Well, you have it now. ')
 
-number = int(input("Enter your number: "))
-
-if number % 2 == 0:
-	print("Congratulations this number", number, "is an even")
-
-elif number % 3:
-	print("Congratulations this number", number, "is not an even")
-
-else :
-	print("This is an Odd number")
+	

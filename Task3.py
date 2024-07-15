@@ -1,6 +1,5 @@
-grade = int(input(' Enter your grade: '))
-
-if grade >= 90:
-	print(" Congratulations! Your grade of ", grade, "earns you an A in this Course.")
-elif  grade <= 90:
-	print(" Invalid number, Do try harder next time!!!!! ")
+for row in range(10):
+ for column in range(10):
+ print('<' if row % 2 == 1 else '>',
+end='')
+ print()
